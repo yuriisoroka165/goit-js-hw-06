@@ -11,4 +11,5 @@ changeColorButton.addEventListener('click', onChangeColorButtonHandler);
 function onChangeColorButtonHandler(event) {
   pageBody.style.backgroundColor = getRandomHexColor();
   textOfBodyColor.textContent = pageBody.style.backgroundColor;
+  console.log('f');
 }
