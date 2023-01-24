@@ -2,7 +2,6 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-
 const inputNumberEl = document.querySelector('#controls > input');
 const createButtonEl = document.querySelector('button[data-create]');
 const destroyButtonEl = document.querySelector('button[data-destroy]');
